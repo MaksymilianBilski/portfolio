@@ -26,8 +26,8 @@ const Navbar = () => {
             alt="logo"
             className="w-[100px] h-[100px] object-contain"
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            Maksymilian{" "}
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Maksymilian | &nbsp;
             <span className="sm:block hidden">MERN stack developer</span>
           </p>
         </Link>
