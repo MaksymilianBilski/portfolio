@@ -21,13 +21,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={logo}
-            alt="logo"
-            className="w-[100px] h-[100px] object-contain"
-          />
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Maksymilian | &nbsp;
+            Maksymilian |&nbsp;
             <span className="sm:block hidden">MERN stack developer</span>
           </p>
         </Link>
